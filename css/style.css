@@ -1,5 +1,8 @@
 ::root {
-  
+  --ff-regular: Helvetica, sans-serif;
+  --fs-regular: 22px;
+  --color-bg: black;
+  --color-fg: seashell;
 }
 
 *,
@@ -8,4 +11,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  margin: inherit;
+  padding: inherit;
+  background-color: gray;
 }
