@@ -1,4 +1,4 @@
-::root {
+:root {
   --ff-regular: Helvetica, sans-serif;
   --fs-regular: 22px;
   --color-bg: black;
@@ -17,5 +17,6 @@ body {
   margin: inherit;
   padding: inherit;
   background-color: gray;
+  
 }
 
