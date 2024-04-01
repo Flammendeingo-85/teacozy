@@ -20,16 +20,42 @@ html {
 }
 
 body {
+  display: block;
   width: 1300px;
   margin: 0 auto;
   background-color: black;
   color: var(--color-fg);
 }
 
+header {
+  display: flex;
+  flex: wrap;
+  position: sticky;
+  top: 0;
+  margin-bottom: 100px;
+  width: 1300px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
 nav {
   display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  background-color: purple;
 }
 
 nav ul {
   display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+nav li a {
+  text-decoration: underline;
 }
