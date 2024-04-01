@@ -25,3 +25,11 @@ body {
   background-color: black;
   color: var(--color-fg);
 }
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
