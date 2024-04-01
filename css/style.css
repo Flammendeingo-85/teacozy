@@ -13,10 +13,15 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   margin: inherit;
   padding: inherit;
   background-color: gray;
-  
 }
 
+body {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: black;
+  color: var(--color-fg);
+}
