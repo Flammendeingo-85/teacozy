@@ -29,10 +29,8 @@ body {
 
 header {
   display: flex;
-  flex: wrap;
   position: sticky;
   top: 0;
-  margin-bottom: 100px;
   width: 1300px;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -42,6 +40,9 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  gap: 100%;
+  width: 1300px;
+  
 }
 
 nav img {
@@ -52,7 +53,6 @@ nav ul {
   display: flex;
   list-style-type: none;
   align-items: center;
-  justify-content: flex-end;
   background-color: white;
 }
 
